@@ -2,6 +2,47 @@
 
 ## Version 12.x
 
+### Version 12.4.0 - 08/16/2023
+
+* Resolves crash with timedId when string is very long
+* Minimum iOS version is 12.0
+
+### Version 12.3.1 - 06/16/2023
+
+* Adds new apis to provide more flexibility for closing timed events
+
+### Version 12.2.0 - 01/24/2023
+
+* Version is built on Xcode 14
+* New api added to FlurrySessionBuilder to simplify gpp consent implementation
+* Watch support is temporarily removed from the podspec due to the following issue: https://github.com/CocoaPods/CocoaPods/issues/11558
+* Use manual installation or Swift Package for WatchOS support
+
+### Version 12.1.4 - 11/02/2022
+
+* Revert back to 12.1.1 due to conflict with ads sdk
+
+### Version 12.1.3 - 10/27/2022
+
+* Version is built on Xcode 14
+* Watch support is temporarily removed from the podspec due to the following issue: https://github.com/CocoaPods/CocoaPods/issues/11558
+* Use manual installation or Swift Package for WatchOS support
+
+### Version 12.1.2 - 
+
+* internal release only
+
+
+### Version 12.1.1 - 06/30/2022
+
+* Fix for http 400 error when consentStrings is nil
+
+### Version 12.1.0 - 06/23/2022
+
+* Flurry's xcframework uses framework rather than static libraries
+* Fix for tvOS arm64 simulator support 
+
+
 ### Version 12.0.0 - 04/18/2022
 
 * Introduced the XCFramework in our build pipeline to replace legacy static library 
